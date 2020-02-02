@@ -22,15 +22,15 @@ function callAfterAKeyIsReleased(event) {
 textInput.addEventListener("keydown", callAfterAKeyIsReleased);
 
 // question 4
-// let hoverButton = document.querySelector("[data-animal='dog']");
+let hoverButton = document.querySelector("[data-animal='dog']");
 
-// function addHoverClass() {
-    // console.log(hoverButton.classList)
-    // hoverButton.classList.add("hover");
+function addHoverClass() {
+    console.log(hoverButton.classList)
+    hoverButton.classList.add("hover");
     
 
-// };
-// hoverButton.addEventListener("mouseover", addHoverClass);
+};
+hoverButton.addEventListener("mouseover", addHoverClass);
 
 
 // question 5
